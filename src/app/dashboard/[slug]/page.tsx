@@ -1,5 +1,6 @@
 import { auth } from "@clerk/nextjs/server";
 import { notFound } from "next/navigation";
+import Link from "next/link";
 import { createSupabaseServerClient } from "@/lib/supabase/server";
 import {
   getLanguageBySlug,
@@ -53,6 +54,15 @@ export default async function LanguageDashboardPage(props: PageProps<"/dashboard
           <span className="font-medium">{REALISM_LABELS[language.realism_status]}</span>.
         </p>
       </div>
+
+      {following && (
+        <Link
+          href={`/dashboard/${language.slug}/practice`}
+          className="mt-6 inline-block rounded-[var(--radius-token)] bg-accent px-5 py-2.5 text-sm font-medium text-accent-foreground"
+        >
+          Commencer une session
+        </Link>
+      )}
 
       <h2 className="mt-10 text-sm font-medium text-muted-foreground">Progression par pilier</h2>
       <div className="mt-3 space-y-3">
