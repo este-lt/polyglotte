@@ -1,0 +1,1014 @@
+{
+  "slug": "russe",
+  "name_fr": "Russe",
+  "name_native": "Русский",
+  "has_distinct_script": true,
+  "daily_minutes_target": 45,
+  "b2_target_months": 6,
+  "estimated_hours_to_b2": 1000,
+  "realism_status": "tres_tendu",
+  "vocab": [
+    {
+      "context_slug": "urgences",
+      "context_name_fr": "Urgences à l'étranger",
+      "items": [
+        { "target_text": "Помогите!", "transliteration": "Pomogite!", "translation_fr": "Au secours !" },
+        { "target_text": "Вызовите скорую помощь!", "transliteration": "Vyzovite skoruyu pomoshch'!", "translation_fr": "Appelez une ambulance !" },
+        { "target_text": "Вызовите полицию!", "transliteration": "Vyzovite politsiyu!", "translation_fr": "Appelez la police !" },
+        { "target_text": "Пожар!", "transliteration": "Pozhar!", "translation_fr": "Au feu !" },
+        { "target_text": "Мне нужна помощь", "transliteration": "Mne nuzhna pomoshch'", "translation_fr": "J'ai besoin d'aide" },
+        { "target_text": "Я потерял паспорт", "transliteration": "Ya poteryal pasport", "translation_fr": "J'ai perdu mon passeport" },
+        { "target_text": "Меня обокрали", "transliteration": "Menya obokrali", "translation_fr": "On m'a volé" },
+        { "target_text": "больница", "transliteration": "bol'nitsa", "translation_fr": "hôpital" },
+        { "target_text": "полицейский участок", "transliteration": "politseyskiy uchastok", "translation_fr": "commissariat de police" },
+        { "target_text": "посольство", "transliteration": "posol'stvo", "translation_fr": "ambassade" },
+        { "target_text": "скорая помощь", "transliteration": "skoraya pomoshch'", "translation_fr": "ambulance / les urgences" },
+        { "target_text": "Мне плохо", "transliteration": "Mne plokho", "translation_fr": "Je ne me sens pas bien" },
+        { "target_text": "несчастный случай", "transliteration": "neschastnyy sluchay", "translation_fr": "accident" },
+        { "target_text": "Позвоните врачу", "transliteration": "Pozvonite vrachu", "translation_fr": "Appelez un médecin" },
+        { "target_text": "документы", "transliteration": "dokumenty", "translation_fr": "papiers d'identité" },
+        { "target_text": "страховка", "transliteration": "strakhovka", "translation_fr": "assurance" },
+        { "target_text": "Я заблудился", "transliteration": "Ya zabludilsya", "translation_fr": "Je suis perdu" },
+        { "target_text": "пожарная служба", "transliteration": "pozharnaya sluzhba", "translation_fr": "les pompiers" },
+        { "target_text": "Осторожно!", "transliteration": "Ostorozhno!", "translation_fr": "Attention !" },
+        { "target_text": "опасно", "transliteration": "opasno", "translation_fr": "dangereux" }
+      ]
+    },
+    {
+      "context_slug": "restaurant",
+      "context_name_fr": "Restaurant et sorties",
+      "items": [
+        { "target_text": "Столик на двоих, пожалуйста", "transliteration": "Stolik na dvoikh, pozhaluysta", "translation_fr": "Une table pour deux, s'il vous plaît" },
+        { "target_text": "Меню, пожалуйста", "transliteration": "Menyu, pozhaluysta", "translation_fr": "La carte, s'il vous plaît" },
+        { "target_text": "Что вы порекомендуете?", "transliteration": "Chto vy porekomenduyete?", "translation_fr": "Que recommandez-vous ?" },
+        { "target_text": "Я закажу...", "transliteration": "Ya zakazhu...", "translation_fr": "Je vais prendre..." },
+        { "target_text": "Счёт, пожалуйста", "transliteration": "Schyot, pozhaluysta", "translation_fr": "L'addition, s'il vous plaît" },
+        { "target_text": "Это было очень вкусно", "transliteration": "Eto bylo ochen' vkusno", "translation_fr": "C'était très bon" },
+        { "target_text": "официант", "transliteration": "ofitsiant", "translation_fr": "serveur" },
+        { "target_text": "официантка", "transliteration": "ofitsiantka", "translation_fr": "serveuse" },
+        { "target_text": "Я вегетарианец", "transliteration": "Ya vegetarianets", "translation_fr": "Je suis végétarien" },
+        { "target_text": "У вас есть...?", "transliteration": "U vas yest'...?", "translation_fr": "Vous avez... ?" },
+        { "target_text": "бар", "transliteration": "bar", "translation_fr": "bar" },
+        { "target_text": "кафе", "transliteration": "kafe", "translation_fr": "café (lieu)" },
+        { "target_text": "заказ", "transliteration": "zakaz", "translation_fr": "commande" },
+        { "target_text": "Можно ещё воды?", "transliteration": "Mozhno yeshcho vody?", "translation_fr": "Je peux avoir encore de l'eau ?" },
+        { "target_text": "на вынос", "transliteration": "na vynos", "translation_fr": "à emporter" },
+        { "target_text": "У меня аллергия на...", "transliteration": "U menya allergiya na...", "translation_fr": "Je suis allergique à..." },
+        { "target_text": "Приятного аппетита", "transliteration": "Priyatnogo appetita", "translation_fr": "Bon appétit" },
+        { "target_text": "бронь", "transliteration": "bron'", "translation_fr": "réservation" }
+      ]
+    },
+    {
+      "context_slug": "voyage",
+      "context_name_fr": "Voyage (transports, hébergement, aéroport)",
+      "items": [
+        { "target_text": "билет", "transliteration": "bilet", "translation_fr": "billet" },
+        { "target_text": "в одну сторону", "transliteration": "v odnu storonu", "translation_fr": "aller simple" },
+        { "target_text": "туда и обратно", "transliteration": "tuda i obratno", "translation_fr": "aller-retour" },
+        { "target_text": "аэропорт", "transliteration": "aeroport", "translation_fr": "aéroport" },
+        { "target_text": "посадка", "transliteration": "posadka", "translation_fr": "embarquement" },
+        { "target_text": "рейс", "transliteration": "reys", "translation_fr": "vol (avion)" },
+        { "target_text": "багаж", "transliteration": "bagazh", "translation_fr": "bagages" },
+        { "target_text": "паспортный контроль", "transliteration": "pasportnyy kontrol'", "translation_fr": "contrôle des passeports" },
+        { "target_text": "таможня", "transliteration": "tamozhnya", "translation_fr": "douane" },
+        { "target_text": "гостиница", "transliteration": "gostinitsa", "translation_fr": "hôtel" },
+        { "target_text": "бронирование", "transliteration": "bronirovaniye", "translation_fr": "réservation" },
+        { "target_text": "У меня забронирован номер", "transliteration": "U menya zabronirovan nomer", "translation_fr": "J'ai une chambre réservée" },
+        { "target_text": "ключ от номера", "transliteration": "klyuch ot nomera", "translation_fr": "clé de la chambre" },
+        { "target_text": "вокзал", "transliteration": "vokzal", "translation_fr": "gare" },
+        { "target_text": "платформа", "transliteration": "platforma", "translation_fr": "quai" },
+        { "target_text": "расписание", "transliteration": "raspisaniye", "translation_fr": "horaires" },
+        { "target_text": "Во сколько отправляется поезд?", "transliteration": "Vo skol'ko otpravlyayetsya poyezd?", "translation_fr": "À quelle heure part le train ?" },
+        { "target_text": "виза", "transliteration": "viza", "translation_fr": "visa" },
+        { "target_text": "Сколько это стоит?", "transliteration": "Skol'ko eto stoit?", "translation_fr": "Combien ça coûte ?" }
+      ]
+    },
+    {
+      "context_slug": "aliments",
+      "context_name_fr": "Aliments",
+      "items": [
+        { "target_text": "хлеб", "transliteration": "khleb", "translation_fr": "pain" },
+        { "target_text": "вода", "transliteration": "voda", "translation_fr": "eau" },
+        { "target_text": "молоко", "transliteration": "moloko", "translation_fr": "lait" },
+        { "target_text": "мясо", "transliteration": "myaso", "translation_fr": "viande" },
+        { "target_text": "курица", "transliteration": "kuritsa", "translation_fr": "poulet" },
+        { "target_text": "рыба", "transliteration": "ryba", "translation_fr": "poisson" },
+        { "target_text": "овощи", "transliteration": "ovoshchi", "translation_fr": "légumes" },
+        { "target_text": "фрукты", "transliteration": "frukty", "translation_fr": "fruits" },
+        { "target_text": "яблоко", "transliteration": "yabloko", "translation_fr": "pomme" },
+        { "target_text": "яйцо", "transliteration": "yaytso", "translation_fr": "œuf" },
+        { "target_text": "сыр", "transliteration": "syr", "translation_fr": "fromage" },
+        { "target_text": "рис", "transliteration": "ris", "translation_fr": "riz" },
+        { "target_text": "суп", "transliteration": "sup", "translation_fr": "soupe" },
+        { "target_text": "салат", "transliteration": "salat", "translation_fr": "salade" },
+        { "target_text": "сахар", "transliteration": "sakhar", "translation_fr": "sucre" },
+        { "target_text": "соль", "transliteration": "sol'", "translation_fr": "sel" },
+        { "target_text": "чай", "transliteration": "chay", "translation_fr": "thé" },
+        { "target_text": "кофе", "transliteration": "kofe", "translation_fr": "café (boisson)" },
+        { "target_text": "пиво", "transliteration": "pivo", "translation_fr": "bière" },
+        { "target_text": "вино", "transliteration": "vino", "translation_fr": "vin" },
+        { "target_text": "картошка", "transliteration": "kartoshka", "translation_fr": "pomme de terre" },
+        { "target_text": "десерт", "transliteration": "desert", "translation_fr": "dessert" },
+        { "target_text": "завтрак", "transliteration": "zavtrak", "translation_fr": "petit-déjeuner" },
+        { "target_text": "обед", "transliteration": "obed", "translation_fr": "déjeuner" },
+        { "target_text": "ужин", "transliteration": "uzhin", "translation_fr": "dîner" }
+      ]
+    },
+    {
+      "context_slug": "medical",
+      "context_name_fr": "Médical (symptômes, douleurs, pharmacie)",
+      "items": [
+        { "target_text": "У меня болит голова", "transliteration": "U menya bolit golova", "translation_fr": "J'ai mal à la tête" },
+        { "target_text": "У меня болит живот", "transliteration": "U menya bolit zhivot", "translation_fr": "J'ai mal au ventre" },
+        { "target_text": "У меня болит горло", "transliteration": "U menya bolit gorlo", "translation_fr": "J'ai mal à la gorge" },
+        { "target_text": "У меня температура", "transliteration": "U menya temperatura", "translation_fr": "J'ai de la fièvre" },
+        { "target_text": "аптека", "transliteration": "apteka", "translation_fr": "pharmacie" },
+        { "target_text": "лекарство", "transliteration": "lekarstvo", "translation_fr": "médicament" },
+        { "target_text": "врач", "transliteration": "vrach", "translation_fr": "médecin" },
+        { "target_text": "боль", "transliteration": "bol'", "translation_fr": "douleur" },
+        { "target_text": "кашель", "transliteration": "kashel'", "translation_fr": "toux" },
+        { "target_text": "простуда", "transliteration": "prostuda", "translation_fr": "rhume" },
+        { "target_text": "аллергия", "transliteration": "allergiya", "translation_fr": "allergie" },
+        { "target_text": "рецепт", "transliteration": "retsept", "translation_fr": "ordonnance" },
+        { "target_text": "Мне нужен врач", "transliteration": "Mne nuzhen vrach", "translation_fr": "J'ai besoin d'un médecin" },
+        { "target_text": "давление", "transliteration": "davleniye", "translation_fr": "tension (médicale)" },
+        { "target_text": "укол", "transliteration": "ukol", "translation_fr": "piqûre" },
+        { "target_text": "бинт", "transliteration": "bint", "translation_fr": "bandage" },
+        { "target_text": "тошнит", "transliteration": "toshnit", "translation_fr": "avoir la nausée" },
+        { "target_text": "Мне плохо, помогите", "transliteration": "Mne plokho, pomogite", "translation_fr": "Je me sens mal, aidez-moi" }
+      ]
+    },
+    {
+      "context_slug": "relationnel",
+      "context_name_fr": "Relationnel (rencontres, amitié, politesse, petits conflits)",
+      "items": [
+        { "target_text": "Как тебя зовут?", "transliteration": "Kak tebya zovut?", "translation_fr": "Comment tu t'appelles ?" },
+        { "target_text": "Меня зовут...", "transliteration": "Menya zovut...", "translation_fr": "Je m'appelle..." },
+        { "target_text": "Приятно познакомиться", "transliteration": "Priyatno poznakomit'sya", "translation_fr": "Enchanté(e)" },
+        { "target_text": "Откуда ты?", "transliteration": "Otkuda ty?", "translation_fr": "D'où viens-tu ?" },
+        { "target_text": "Сколько тебе лет?", "transliteration": "Skol'ko tebe let?", "translation_fr": "Quel âge as-tu ?" },
+        { "target_text": "друг", "transliteration": "drug", "translation_fr": "ami" },
+        { "target_text": "подруга", "transliteration": "podruga", "translation_fr": "amie" },
+        { "target_text": "Извините", "transliteration": "Izvinite", "translation_fr": "Excusez-moi / pardon" },
+        { "target_text": "Не переживай", "transliteration": "Ne perezhivay", "translation_fr": "Ne t'inquiète pas" },
+        { "target_text": "Оставь меня в покое", "transliteration": "Ostav' menya v pokoye", "translation_fr": "Laisse-moi tranquille" },
+        { "target_text": "Я не согласен", "transliteration": "Ya ne soglasen", "translation_fr": "Je ne suis pas d'accord (homme)" },
+        { "target_text": "Я не согласна", "transliteration": "Ya ne soglasna", "translation_fr": "Je ne suis pas d'accord (femme)" },
+        { "target_text": "Успокойся", "transliteration": "Uspokoysya", "translation_fr": "Calme-toi" },
+        { "target_text": "Мы можем поговорить?", "transliteration": "My mozhem pogovorit'?", "translation_fr": "On peut discuter ?" },
+        { "target_text": "знакомый", "transliteration": "znakomyy", "translation_fr": "connaissance (personne)" },
+        { "target_text": "доверие", "transliteration": "doveriye", "translation_fr": "confiance" }
+      ]
+    },
+    {
+      "context_slug": "famille",
+      "context_name_fr": "Famille",
+      "items": [
+        { "target_text": "семья", "transliteration": "sem'ya", "translation_fr": "famille" },
+        { "target_text": "мама", "transliteration": "mama", "translation_fr": "maman" },
+        { "target_text": "папа", "transliteration": "papa", "translation_fr": "papa" },
+        { "target_text": "сын", "transliteration": "syn", "translation_fr": "fils" },
+        { "target_text": "дочь", "transliteration": "doch'", "translation_fr": "fille" },
+        { "target_text": "брат", "transliteration": "brat", "translation_fr": "frère" },
+        { "target_text": "сестра", "transliteration": "sestra", "translation_fr": "sœur" },
+        { "target_text": "бабушка", "transliteration": "babushka", "translation_fr": "grand-mère" },
+        { "target_text": "дедушка", "transliteration": "dedushka", "translation_fr": "grand-père" },
+        { "target_text": "муж", "transliteration": "muzh", "translation_fr": "mari" },
+        { "target_text": "жена", "transliteration": "zhena", "translation_fr": "femme (épouse)" },
+        { "target_text": "ребёнок", "transliteration": "rebyonok", "translation_fr": "enfant" },
+        { "target_text": "родители", "transliteration": "roditeli", "translation_fr": "parents" },
+        { "target_text": "дядя", "transliteration": "dyadya", "translation_fr": "oncle" },
+        { "target_text": "тётя", "transliteration": "tyotya", "translation_fr": "tante" }
+      ]
+    },
+    {
+      "context_slug": "logement",
+      "context_name_fr": "Logement",
+      "items": [
+        { "target_text": "квартира", "transliteration": "kvartira", "translation_fr": "appartement" },
+        { "target_text": "дом", "transliteration": "dom", "translation_fr": "maison" },
+        { "target_text": "комната", "transliteration": "komnata", "translation_fr": "pièce / chambre" },
+        { "target_text": "кухня", "transliteration": "kukhnya", "translation_fr": "cuisine" },
+        { "target_text": "ванная", "transliteration": "vannaya", "translation_fr": "salle de bain" },
+        { "target_text": "туалет", "transliteration": "tualet", "translation_fr": "toilettes" },
+        { "target_text": "аренда", "transliteration": "arenda", "translation_fr": "location" },
+        { "target_text": "арендная плата", "transliteration": "arendnaya plata", "translation_fr": "loyer" },
+        { "target_text": "ключ", "transliteration": "klyuch", "translation_fr": "clé" },
+        { "target_text": "адрес", "transliteration": "adres", "translation_fr": "adresse" },
+        { "target_text": "сосед", "transliteration": "sosed", "translation_fr": "voisin" },
+        { "target_text": "этаж", "transliteration": "etazh", "translation_fr": "étage" },
+        { "target_text": "лифт", "transliteration": "lift", "translation_fr": "ascenseur" },
+        { "target_text": "мебель", "transliteration": "mebel'", "translation_fr": "meubles" }
+      ]
+    },
+    {
+      "context_slug": "achats",
+      "context_name_fr": "Achats et argent",
+      "items": [
+        { "target_text": "деньги", "transliteration": "den'gi", "translation_fr": "argent" },
+        { "target_text": "магазин", "transliteration": "magazin", "translation_fr": "magasin" },
+        { "target_text": "цена", "transliteration": "tsena", "translation_fr": "prix" },
+        { "target_text": "дорого", "transliteration": "dorogo", "translation_fr": "cher" },
+        { "target_text": "дёшево", "transliteration": "dyoshevo", "translation_fr": "pas cher" },
+        { "target_text": "скидка", "transliteration": "skidka", "translation_fr": "réduction" },
+        { "target_text": "наличные", "transliteration": "nalichnyye", "translation_fr": "espèces" },
+        { "target_text": "карта", "transliteration": "karta", "translation_fr": "carte (bancaire)" },
+        { "target_text": "касса", "transliteration": "kassa", "translation_fr": "caisse" },
+        { "target_text": "чек", "transliteration": "chek", "translation_fr": "ticket de caisse" },
+        { "target_text": "сдача", "transliteration": "sdacha", "translation_fr": "monnaie à rendre" },
+        { "target_text": "Можно расплатиться картой?", "transliteration": "Mozhno rasplatit'sya kartoy?", "translation_fr": "On peut payer par carte ?" },
+        { "target_text": "банкомат", "transliteration": "bankomat", "translation_fr": "distributeur (ATM)" },
+        { "target_text": "Я просто смотрю", "transliteration": "Ya prosto smotryu", "translation_fr": "Je regarde juste" }
+      ]
+    },
+    {
+      "context_slug": "transports_quotidien",
+      "context_name_fr": "Transports et directions au quotidien",
+      "items": [
+        { "target_text": "автобус", "transliteration": "avtobus", "translation_fr": "bus" },
+        { "target_text": "метро", "transliteration": "metro", "translation_fr": "métro" },
+        { "target_text": "такси", "transliteration": "taksi", "translation_fr": "taxi" },
+        { "target_text": "остановка", "transliteration": "ostanovka", "translation_fr": "arrêt" },
+        { "target_text": "Где ближайшая станция метро?", "transliteration": "Gde blizhayshaya stantsiya metro?", "translation_fr": "Où est la station de métro la plus proche ?" },
+        { "target_text": "налево", "transliteration": "nalevo", "translation_fr": "à gauche" },
+        { "target_text": "направо", "transliteration": "napravo", "translation_fr": "à droite" },
+        { "target_text": "прямо", "transliteration": "pryamo", "translation_fr": "tout droit" },
+        { "target_text": "близко", "transliteration": "blizko", "translation_fr": "proche" },
+        { "target_text": "далеко", "transliteration": "daleko", "translation_fr": "loin" },
+        { "target_text": "Как добраться до...?", "transliteration": "Kak dobrat'sya do...?", "translation_fr": "Comment aller à... ?" },
+        { "target_text": "машина", "transliteration": "mashina", "translation_fr": "voiture" },
+        { "target_text": "пешком", "transliteration": "peshkom", "translation_fr": "à pied" },
+        { "target_text": "перекрёсток", "transliteration": "perekryostok", "translation_fr": "carrefour" }
+      ]
+    },
+    {
+      "context_slug": "emotions",
+      "context_name_fr": "Émotions",
+      "items": [
+        { "target_text": "радость", "transliteration": "radost'", "translation_fr": "joie" },
+        { "target_text": "Я счастлив", "transliteration": "Ya schastliv", "translation_fr": "Je suis heureux" },
+        { "target_text": "Я счастлива", "transliteration": "Ya schastliva", "translation_fr": "Je suis heureuse" },
+        { "target_text": "Мне грустно", "transliteration": "Mne grustno", "translation_fr": "Je suis triste" },
+        { "target_text": "Я устал", "transliteration": "Ya ustal", "translation_fr": "Je suis fatigué" },
+        { "target_text": "Я устала", "transliteration": "Ya ustala", "translation_fr": "Je suis fatiguée" },
+        { "target_text": "Мне страшно", "transliteration": "Mne strashno", "translation_fr": "J'ai peur" },
+        { "target_text": "Я злюсь", "transliteration": "Ya zlyus'", "translation_fr": "Je suis en colère" },
+        { "target_text": "Я волнуюсь", "transliteration": "Ya volnuyus'", "translation_fr": "Je suis inquiet / anxieux" },
+        { "target_text": "удивление", "transliteration": "udivleniye", "translation_fr": "surprise" },
+        { "target_text": "Я в порядке", "transliteration": "Ya v poryadke", "translation_fr": "Je vais bien" },
+        { "target_text": "Мне скучно", "transliteration": "Mne skuchno", "translation_fr": "Je m'ennuie" },
+        { "target_text": "стресс", "transliteration": "stress", "translation_fr": "stress" }
+      ]
+    },
+    {
+      "context_slug": "meteo",
+      "context_name_fr": "Météo et saisons",
+      "items": [
+        { "target_text": "погода", "transliteration": "pogoda", "translation_fr": "météo / temps" },
+        { "target_text": "Какая сегодня погода?", "transliteration": "Kakaya segodnya pogoda?", "translation_fr": "Quel temps fait-il aujourd'hui ?" },
+        { "target_text": "солнце", "transliteration": "solntse", "translation_fr": "soleil" },
+        { "target_text": "Идёт дождь", "transliteration": "Idyot dozhd'", "translation_fr": "Il pleut" },
+        { "target_text": "Идёт снег", "transliteration": "Idyot sneg", "translation_fr": "Il neige" },
+        { "target_text": "холодно", "transliteration": "kholodno", "translation_fr": "il fait froid" },
+        { "target_text": "жарко", "transliteration": "zharko", "translation_fr": "il fait chaud" },
+        { "target_text": "тепло", "transliteration": "teplo", "translation_fr": "il fait doux" },
+        { "target_text": "ветер", "transliteration": "veter", "translation_fr": "vent" },
+        { "target_text": "облачно", "transliteration": "oblachno", "translation_fr": "nuageux" },
+        { "target_text": "зима", "transliteration": "zima", "translation_fr": "hiver" },
+        { "target_text": "лето", "transliteration": "leto", "translation_fr": "été" },
+        { "target_text": "весна", "transliteration": "vesna", "translation_fr": "printemps" },
+        { "target_text": "осень", "transliteration": "osen'", "translation_fr": "automne" }
+      ]
+    },
+    {
+      "context_slug": "temps",
+      "context_name_fr": "Nombres, heure et dates",
+      "items": [
+        { "target_text": "один", "transliteration": "odin", "translation_fr": "un" },
+        { "target_text": "два", "transliteration": "dva", "translation_fr": "deux" },
+        { "target_text": "три", "transliteration": "tri", "translation_fr": "trois" },
+        { "target_text": "четыре", "transliteration": "chetyre", "translation_fr": "quatre" },
+        { "target_text": "пять", "transliteration": "pyat'", "translation_fr": "cinq" },
+        { "target_text": "шесть", "transliteration": "shest'", "translation_fr": "six" },
+        { "target_text": "семь", "transliteration": "sem'", "translation_fr": "sept" },
+        { "target_text": "восемь", "transliteration": "vosem'", "translation_fr": "huit" },
+        { "target_text": "девять", "transliteration": "devyat'", "translation_fr": "neuf" },
+        { "target_text": "десять", "transliteration": "desyat'", "translation_fr": "dix" },
+        { "target_text": "Сколько времени?", "transliteration": "Skol'ko vremeni?", "translation_fr": "Quelle heure est-il ?" },
+        { "target_text": "сейчас", "transliteration": "seychas", "translation_fr": "maintenant" },
+        { "target_text": "сегодня", "transliteration": "segodnya", "translation_fr": "aujourd'hui" },
+        { "target_text": "завтра", "transliteration": "zavtra", "translation_fr": "demain" },
+        { "target_text": "вчера", "transliteration": "vchera", "translation_fr": "hier" },
+        { "target_text": "неделя", "transliteration": "nedelya", "translation_fr": "semaine" },
+        { "target_text": "месяц", "transliteration": "mesyats", "translation_fr": "mois" },
+        { "target_text": "год", "transliteration": "god", "translation_fr": "année" },
+        { "target_text": "утро", "transliteration": "utro", "translation_fr": "matin" },
+        { "target_text": "вечер", "transliteration": "vecher", "translation_fr": "soir" },
+        { "target_text": "ночь", "transliteration": "noch'", "translation_fr": "nuit" },
+        { "target_text": "выходные", "transliteration": "vykhodnyye", "translation_fr": "week-end" }
+      ]
+    },
+    {
+      "context_slug": "technologie",
+      "context_name_fr": "Technologie et communication",
+      "items": [
+        { "target_text": "телефон", "transliteration": "telefon", "translation_fr": "téléphone" },
+        { "target_text": "интернет", "transliteration": "internet", "translation_fr": "internet" },
+        { "target_text": "Wi-Fi есть?", "transliteration": "Wi-Fi yest'?", "translation_fr": "Il y a du Wi-Fi ?" },
+        { "target_text": "пароль", "transliteration": "parol'", "translation_fr": "mot de passe" },
+        { "target_text": "зарядка", "transliteration": "zaryadka", "translation_fr": "chargeur" },
+        { "target_text": "Мой телефон разрядился", "transliteration": "Moy telefon razryadilsya", "translation_fr": "Mon téléphone est déchargé" },
+        { "target_text": "номер телефона", "transliteration": "nomer telefona", "translation_fr": "numéro de téléphone" },
+        { "target_text": "сообщение", "transliteration": "soobshcheniye", "translation_fr": "message" },
+        { "target_text": "Можно ваш номер?", "transliteration": "Mozhno vash nomer?", "translation_fr": "Je peux avoir votre numéro ?" },
+        { "target_text": "приложение", "transliteration": "prilozheniye", "translation_fr": "application" },
+        { "target_text": "батарея", "transliteration": "batareya", "translation_fr": "batterie" },
+        { "target_text": "Не могли бы вы сфотографировать нас?", "transliteration": "Ne mogli by vy sfotografirovat' nas?", "translation_fr": "Pourriez-vous nous prendre en photo ?" }
+      ]
+    },
+    {
+      "context_slug": "loisirs",
+      "context_name_fr": "Loisirs",
+      "items": [
+        { "target_text": "фильм", "transliteration": "fil'm", "translation_fr": "film" },
+        { "target_text": "музыка", "transliteration": "muzyka", "translation_fr": "musique" },
+        { "target_text": "спорт", "transliteration": "sport", "translation_fr": "sport" },
+        { "target_text": "книга", "transliteration": "kniga", "translation_fr": "livre" },
+        { "target_text": "Я люблю читать", "transliteration": "Ya lyublyu chitat'", "translation_fr": "J'aime lire" },
+        { "target_text": "прогулка", "transliteration": "progulka", "translation_fr": "promenade" },
+        { "target_text": "Пойдём гулять", "transliteration": "Poydyom gulyat'", "translation_fr": "Allons nous promener" },
+        { "target_text": "концерт", "transliteration": "kontsert", "translation_fr": "concert" },
+        { "target_text": "Что ты делаешь в свободное время?", "transliteration": "Chto ty delayesh' v svobodnoye vremya?", "translation_fr": "Qu'est-ce que tu fais pendant ton temps libre ?" },
+        { "target_text": "игра", "transliteration": "igra", "translation_fr": "jeu" },
+        { "target_text": "плавание", "transliteration": "plavaniye", "translation_fr": "natation" },
+        { "target_text": "путешествие", "transliteration": "puteshestviye", "translation_fr": "voyage (loisir)" }
+      ]
+    },
+    {
+      "context_slug": "corps",
+      "context_name_fr": "Corps et apparence",
+      "items": [
+        { "target_text": "голова", "transliteration": "golova", "translation_fr": "tête" },
+        { "target_text": "рука", "transliteration": "ruka", "translation_fr": "main / bras" },
+        { "target_text": "нога", "transliteration": "noga", "translation_fr": "jambe / pied" },
+        { "target_text": "глаза", "transliteration": "glaza", "translation_fr": "yeux" },
+        { "target_text": "лицо", "transliteration": "litso", "translation_fr": "visage" },
+        { "target_text": "волосы", "transliteration": "volosy", "translation_fr": "cheveux" },
+        { "target_text": "высокий", "transliteration": "vysokiy", "translation_fr": "grand (taille, m.)" },
+        { "target_text": "невысокий", "transliteration": "nevysokiy", "translation_fr": "petit (taille, m.)" },
+        { "target_text": "красивый", "transliteration": "krasivyy", "translation_fr": "beau" },
+        { "target_text": "красивая", "transliteration": "krasivaya", "translation_fr": "belle" },
+        { "target_text": "спина", "transliteration": "spina", "translation_fr": "dos" },
+        { "target_text": "живот", "transliteration": "zhivot", "translation_fr": "ventre" },
+        { "target_text": "сердце", "transliteration": "serdtse", "translation_fr": "cœur" }
+      ]
+    }
+  ],
+  "conjugation": {
+    "tenses": [
+      {
+        "slug": "present",
+        "name_fr": "Présent",
+        "formation_rule_fr": "Le verbe se conjugue selon 6 personnes (я / ты / он-она-оно / мы / вы / они). Les verbes en -ать/-ять suivent la 1ère conjugaison (terminaisons -ю/-ешь/-ет/-ем/-ете/-ют), les verbes en -ить suivent la 2e conjugaison (-ю/-ишь/-ит/-им/-ите/-ят). Contrairement au français, il n'y a pas de verbe « être » au présent : le sujet est directement suivi de l'attribut."
+      },
+      {
+        "slug": "passe",
+        "name_fr": "Passé",
+        "formation_rule_fr": "Le passé ne se conjugue pas par personne mais par genre et nombre du sujet : radical de l'infinitif + -л (masculin), -ла (féminin), -ло (neutre), -ли (pluriel, quel que soit le genre)."
+      },
+      {
+        "slug": "futur",
+        "name_fr": "Futur",
+        "formation_rule_fr": "Pour les verbes imperfectifs (la majorité des verbes courants), le futur se forme avec быть conjugué (буду / будешь / будет / будем / будете / будут) suivi de l'infinitif du verbe. Certains verbes perfectifs (ex: сказать) se conjuguent directement comme un présent mais expriment déjà le futur."
+      },
+      {
+        "slug": "imperatif",
+        "name_fr": "Impératif",
+        "formation_rule_fr": "L'impératif informel (tu) se forme à partir du radical du présent, généralement en -й ou -и ; on ajoute -те pour s'adresser à plusieurs personnes ou avec le vouvoiement (вы)."
+      }
+    ],
+    "verbs": [
+      { "infinitive_target": "быть", "infinitive_transliteration": "byt'", "infinitive_fr": "être", "is_survival_verb": true },
+      { "infinitive_target": "идти", "infinitive_transliteration": "idti", "infinitive_fr": "aller", "is_survival_verb": true },
+      { "infinitive_target": "делать", "infinitive_transliteration": "delat'", "infinitive_fr": "faire", "is_survival_verb": true },
+      { "infinitive_target": "хотеть", "infinitive_transliteration": "khotet'", "infinitive_fr": "vouloir", "is_survival_verb": true },
+      { "infinitive_target": "мочь", "infinitive_transliteration": "moch'", "infinitive_fr": "pouvoir", "is_survival_verb": true },
+      { "infinitive_target": "должен", "infinitive_transliteration": "dolzhen", "infinitive_fr": "devoir", "is_survival_verb": true },
+      { "infinitive_target": "знать", "infinitive_transliteration": "znat'", "infinitive_fr": "savoir", "is_survival_verb": true },
+      { "infinitive_target": "сказать", "infinitive_transliteration": "skazat'", "infinitive_fr": "dire", "is_survival_verb": true },
+      { "infinitive_target": "говорить", "infinitive_transliteration": "govorit'", "infinitive_fr": "parler", "is_survival_verb": true },
+      { "infinitive_target": "понимать", "infinitive_transliteration": "ponimat'", "infinitive_fr": "comprendre", "is_survival_verb": true },
+      { "infinitive_target": "есть", "infinitive_transliteration": "yest'", "infinitive_fr": "manger", "is_survival_verb": true },
+      { "infinitive_target": "пить", "infinitive_transliteration": "pit'", "infinitive_fr": "boire", "is_survival_verb": true },
+      { "infinitive_target": "любить", "infinitive_transliteration": "lyubit'", "infinitive_fr": "aimer", "is_survival_verb": true },
+      { "infinitive_target": "брать", "infinitive_transliteration": "brat'", "infinitive_fr": "prendre", "is_survival_verb": true },
+      { "infinitive_target": "нужно", "infinitive_transliteration": "nuzhno", "infinitive_fr": "avoir besoin de", "is_survival_verb": true }
+    ],
+    "forms": [
+      { "verb_infinitive_target": "идти", "tense_slug": "present", "person_label": "я", "form_target": "иду", "form_transliteration": "idu" },
+      { "verb_infinitive_target": "идти", "tense_slug": "present", "person_label": "ты", "form_target": "идёшь", "form_transliteration": "idyosh'" },
+      { "verb_infinitive_target": "идти", "tense_slug": "present", "person_label": "он/она/оно", "form_target": "идёт", "form_transliteration": "idyot" },
+      { "verb_infinitive_target": "идти", "tense_slug": "present", "person_label": "мы", "form_target": "идём", "form_transliteration": "idyom" },
+      { "verb_infinitive_target": "идти", "tense_slug": "present", "person_label": "вы", "form_target": "идёте", "form_transliteration": "idyote" },
+      { "verb_infinitive_target": "идти", "tense_slug": "present", "person_label": "они", "form_target": "идут", "form_transliteration": "idut" },
+
+      { "verb_infinitive_target": "делать", "tense_slug": "present", "person_label": "я", "form_target": "делаю", "form_transliteration": "delayu" },
+      { "verb_infinitive_target": "делать", "tense_slug": "present", "person_label": "ты", "form_target": "делаешь", "form_transliteration": "delayesh'" },
+      { "verb_infinitive_target": "делать", "tense_slug": "present", "person_label": "он/она/оно", "form_target": "делает", "form_transliteration": "delayet" },
+      { "verb_infinitive_target": "делать", "tense_slug": "present", "person_label": "мы", "form_target": "делаем", "form_transliteration": "delayem" },
+      { "verb_infinitive_target": "делать", "tense_slug": "present", "person_label": "вы", "form_target": "делаете", "form_transliteration": "delayete" },
+      { "verb_infinitive_target": "делать", "tense_slug": "present", "person_label": "они", "form_target": "делают", "form_transliteration": "delayut" },
+
+      { "verb_infinitive_target": "хотеть", "tense_slug": "present", "person_label": "я", "form_target": "хочу", "form_transliteration": "khochu" },
+      { "verb_infinitive_target": "хотеть", "tense_slug": "present", "person_label": "ты", "form_target": "хочешь", "form_transliteration": "khochesh'" },
+      { "verb_infinitive_target": "хотеть", "tense_slug": "present", "person_label": "он/она/оно", "form_target": "хочет", "form_transliteration": "khochet" },
+      { "verb_infinitive_target": "хотеть", "tense_slug": "present", "person_label": "мы", "form_target": "хотим", "form_transliteration": "khotim" },
+      { "verb_infinitive_target": "хотеть", "tense_slug": "present", "person_label": "вы", "form_target": "хотите", "form_transliteration": "khotite" },
+      { "verb_infinitive_target": "хотеть", "tense_slug": "present", "person_label": "они", "form_target": "хотят", "form_transliteration": "khotyat" },
+
+      { "verb_infinitive_target": "мочь", "tense_slug": "present", "person_label": "я", "form_target": "могу", "form_transliteration": "mogu" },
+      { "verb_infinitive_target": "мочь", "tense_slug": "present", "person_label": "ты", "form_target": "можешь", "form_transliteration": "mozhesh'" },
+      { "verb_infinitive_target": "мочь", "tense_slug": "present", "person_label": "он/она/оно", "form_target": "может", "form_transliteration": "mozhet" },
+      { "verb_infinitive_target": "мочь", "tense_slug": "present", "person_label": "мы", "form_target": "можем", "form_transliteration": "mozhem" },
+      { "verb_infinitive_target": "мочь", "tense_slug": "present", "person_label": "вы", "form_target": "можете", "form_transliteration": "mozhete" },
+      { "verb_infinitive_target": "мочь", "tense_slug": "present", "person_label": "они", "form_target": "могут", "form_transliteration": "mogut" },
+
+      { "verb_infinitive_target": "знать", "tense_slug": "present", "person_label": "я", "form_target": "знаю", "form_transliteration": "znayu" },
+      { "verb_infinitive_target": "знать", "tense_slug": "present", "person_label": "ты", "form_target": "знаешь", "form_transliteration": "znayesh'" },
+      { "verb_infinitive_target": "знать", "tense_slug": "present", "person_label": "он/она/оно", "form_target": "знает", "form_transliteration": "znayet" },
+      { "verb_infinitive_target": "знать", "tense_slug": "present", "person_label": "мы", "form_target": "знаем", "form_transliteration": "znayem" },
+      { "verb_infinitive_target": "знать", "tense_slug": "present", "person_label": "вы", "form_target": "знаете", "form_transliteration": "znayete" },
+      { "verb_infinitive_target": "знать", "tense_slug": "present", "person_label": "они", "form_target": "знают", "form_transliteration": "znayut" },
+
+      { "verb_infinitive_target": "говорить", "tense_slug": "present", "person_label": "я", "form_target": "говорю", "form_transliteration": "govoryu" },
+      { "verb_infinitive_target": "говорить", "tense_slug": "present", "person_label": "ты", "form_target": "говоришь", "form_transliteration": "govorish'" },
+      { "verb_infinitive_target": "говорить", "tense_slug": "present", "person_label": "он/она/оно", "form_target": "говорит", "form_transliteration": "govorit" },
+      { "verb_infinitive_target": "говорить", "tense_slug": "present", "person_label": "мы", "form_target": "говорим", "form_transliteration": "govorim" },
+      { "verb_infinitive_target": "говорить", "tense_slug": "present", "person_label": "вы", "form_target": "говорите", "form_transliteration": "govorite" },
+      { "verb_infinitive_target": "говорить", "tense_slug": "present", "person_label": "они", "form_target": "говорят", "form_transliteration": "govoryat" },
+
+      { "verb_infinitive_target": "понимать", "tense_slug": "present", "person_label": "я", "form_target": "понимаю", "form_transliteration": "ponimayu" },
+      { "verb_infinitive_target": "понимать", "tense_slug": "present", "person_label": "ты", "form_target": "понимаешь", "form_transliteration": "ponimayesh'" },
+      { "verb_infinitive_target": "понимать", "tense_slug": "present", "person_label": "он/она/оно", "form_target": "понимает", "form_transliteration": "ponimayet" },
+      { "verb_infinitive_target": "понимать", "tense_slug": "present", "person_label": "мы", "form_target": "понимаем", "form_transliteration": "ponimayem" },
+      { "verb_infinitive_target": "понимать", "tense_slug": "present", "person_label": "вы", "form_target": "понимаете", "form_transliteration": "ponimayete" },
+      { "verb_infinitive_target": "понимать", "tense_slug": "present", "person_label": "они", "form_target": "понимают", "form_transliteration": "ponimayut" },
+
+      { "verb_infinitive_target": "есть", "tense_slug": "present", "person_label": "я", "form_target": "ем", "form_transliteration": "yem" },
+      { "verb_infinitive_target": "есть", "tense_slug": "present", "person_label": "ты", "form_target": "ешь", "form_transliteration": "yesh'" },
+      { "verb_infinitive_target": "есть", "tense_slug": "present", "person_label": "он/она/оно", "form_target": "ест", "form_transliteration": "yest" },
+      { "verb_infinitive_target": "есть", "tense_slug": "present", "person_label": "мы", "form_target": "едим", "form_transliteration": "yedim" },
+      { "verb_infinitive_target": "есть", "tense_slug": "present", "person_label": "вы", "form_target": "едите", "form_transliteration": "yedite" },
+      { "verb_infinitive_target": "есть", "tense_slug": "present", "person_label": "они", "form_target": "едят", "form_transliteration": "yedyat" },
+
+      { "verb_infinitive_target": "пить", "tense_slug": "present", "person_label": "я", "form_target": "пью", "form_transliteration": "p'yu" },
+      { "verb_infinitive_target": "пить", "tense_slug": "present", "person_label": "ты", "form_target": "пьёшь", "form_transliteration": "p'yosh'" },
+      { "verb_infinitive_target": "пить", "tense_slug": "present", "person_label": "он/она/оно", "form_target": "пьёт", "form_transliteration": "p'yot" },
+      { "verb_infinitive_target": "пить", "tense_slug": "present", "person_label": "мы", "form_target": "пьём", "form_transliteration": "p'yom" },
+      { "verb_infinitive_target": "пить", "tense_slug": "present", "person_label": "вы", "form_target": "пьёте", "form_transliteration": "p'yote" },
+      { "verb_infinitive_target": "пить", "tense_slug": "present", "person_label": "они", "form_target": "пьют", "form_transliteration": "p'yut" },
+
+      { "verb_infinitive_target": "любить", "tense_slug": "present", "person_label": "я", "form_target": "люблю", "form_transliteration": "lyublyu" },
+      { "verb_infinitive_target": "любить", "tense_slug": "present", "person_label": "ты", "form_target": "любишь", "form_transliteration": "lyubish'" },
+      { "verb_infinitive_target": "любить", "tense_slug": "present", "person_label": "он/она/оно", "form_target": "любит", "form_transliteration": "lyubit" },
+      { "verb_infinitive_target": "любить", "tense_slug": "present", "person_label": "мы", "form_target": "любим", "form_transliteration": "lyubim" },
+      { "verb_infinitive_target": "любить", "tense_slug": "present", "person_label": "вы", "form_target": "любите", "form_transliteration": "lyubite" },
+      { "verb_infinitive_target": "любить", "tense_slug": "present", "person_label": "они", "form_target": "любят", "form_transliteration": "lyubyat" },
+
+      { "verb_infinitive_target": "брать", "tense_slug": "present", "person_label": "я", "form_target": "беру", "form_transliteration": "beru" },
+      { "verb_infinitive_target": "брать", "tense_slug": "present", "person_label": "ты", "form_target": "берёшь", "form_transliteration": "beryosh'" },
+      { "verb_infinitive_target": "брать", "tense_slug": "present", "person_label": "он/она/оно", "form_target": "берёт", "form_transliteration": "beryot" },
+      { "verb_infinitive_target": "брать", "tense_slug": "present", "person_label": "мы", "form_target": "берём", "form_transliteration": "beryom" },
+      { "verb_infinitive_target": "брать", "tense_slug": "present", "person_label": "вы", "form_target": "берёте", "form_transliteration": "beryote" },
+      { "verb_infinitive_target": "брать", "tense_slug": "present", "person_label": "они", "form_target": "берут", "form_transliteration": "berut" },
+
+      { "verb_infinitive_target": "должен", "tense_slug": "present", "person_label": "masculin singulier (я/ты/он)", "form_target": "должен", "form_transliteration": "dolzhen" },
+      { "verb_infinitive_target": "должен", "tense_slug": "present", "person_label": "féminin singulier (я/ты/она)", "form_target": "должна", "form_transliteration": "dolzhna" },
+      { "verb_infinitive_target": "должен", "tense_slug": "present", "person_label": "neutre singulier (оно)", "form_target": "должно", "form_transliteration": "dolzhno" },
+      { "verb_infinitive_target": "должен", "tense_slug": "present", "person_label": "pluriel (мы/вы/они)", "form_target": "должны", "form_transliteration": "dolzhny" },
+
+      { "verb_infinitive_target": "нужно", "tense_slug": "present", "person_label": "invariable (+ pronom au datif + infinitif)", "form_target": "нужно", "form_transliteration": "nuzhno" },
+
+      { "verb_infinitive_target": "быть", "tense_slug": "passe", "person_label": "masculin", "form_target": "был", "form_transliteration": "byl" },
+      { "verb_infinitive_target": "быть", "tense_slug": "passe", "person_label": "féminin", "form_target": "была", "form_transliteration": "byla" },
+      { "verb_infinitive_target": "быть", "tense_slug": "passe", "person_label": "neutre", "form_target": "было", "form_transliteration": "bylo" },
+      { "verb_infinitive_target": "быть", "tense_slug": "passe", "person_label": "pluriel", "form_target": "были", "form_transliteration": "byli" },
+
+      { "verb_infinitive_target": "идти", "tense_slug": "passe", "person_label": "masculin", "form_target": "шёл", "form_transliteration": "shol" },
+      { "verb_infinitive_target": "идти", "tense_slug": "passe", "person_label": "féminin", "form_target": "шла", "form_transliteration": "shla" },
+      { "verb_infinitive_target": "идти", "tense_slug": "passe", "person_label": "neutre", "form_target": "шло", "form_transliteration": "shlo" },
+      { "verb_infinitive_target": "идти", "tense_slug": "passe", "person_label": "pluriel", "form_target": "шли", "form_transliteration": "shli" },
+
+      { "verb_infinitive_target": "делать", "tense_slug": "passe", "person_label": "masculin", "form_target": "делал", "form_transliteration": "delal" },
+      { "verb_infinitive_target": "делать", "tense_slug": "passe", "person_label": "féminin", "form_target": "делала", "form_transliteration": "delala" },
+      { "verb_infinitive_target": "делать", "tense_slug": "passe", "person_label": "neutre", "form_target": "делало", "form_transliteration": "delalo" },
+      { "verb_infinitive_target": "делать", "tense_slug": "passe", "person_label": "pluriel", "form_target": "делали", "form_transliteration": "delali" },
+
+      { "verb_infinitive_target": "хотеть", "tense_slug": "passe", "person_label": "masculin", "form_target": "хотел", "form_transliteration": "khotel" },
+      { "verb_infinitive_target": "хотеть", "tense_slug": "passe", "person_label": "féminin", "form_target": "хотела", "form_transliteration": "khotela" },
+      { "verb_infinitive_target": "хотеть", "tense_slug": "passe", "person_label": "neutre", "form_target": "хотело", "form_transliteration": "khotelo" },
+      { "verb_infinitive_target": "хотеть", "tense_slug": "passe", "person_label": "pluriel", "form_target": "хотели", "form_transliteration": "khoteli" },
+
+      { "verb_infinitive_target": "мочь", "tense_slug": "passe", "person_label": "masculin", "form_target": "мог", "form_transliteration": "mog" },
+      { "verb_infinitive_target": "мочь", "tense_slug": "passe", "person_label": "féminin", "form_target": "могла", "form_transliteration": "mogla" },
+      { "verb_infinitive_target": "мочь", "tense_slug": "passe", "person_label": "neutre", "form_target": "могло", "form_transliteration": "moglo" },
+      { "verb_infinitive_target": "мочь", "tense_slug": "passe", "person_label": "pluriel", "form_target": "могли", "form_transliteration": "mogli" },
+
+      { "verb_infinitive_target": "знать", "tense_slug": "passe", "person_label": "masculin", "form_target": "знал", "form_transliteration": "znal" },
+      { "verb_infinitive_target": "знать", "tense_slug": "passe", "person_label": "féminin", "form_target": "знала", "form_transliteration": "znala" },
+      { "verb_infinitive_target": "знать", "tense_slug": "passe", "person_label": "neutre", "form_target": "знало", "form_transliteration": "znalo" },
+      { "verb_infinitive_target": "знать", "tense_slug": "passe", "person_label": "pluriel", "form_target": "знали", "form_transliteration": "znali" },
+
+      { "verb_infinitive_target": "сказать", "tense_slug": "passe", "person_label": "masculin", "form_target": "сказал", "form_transliteration": "skazal" },
+      { "verb_infinitive_target": "сказать", "tense_slug": "passe", "person_label": "féminin", "form_target": "сказала", "form_transliteration": "skazala" },
+      { "verb_infinitive_target": "сказать", "tense_slug": "passe", "person_label": "neutre", "form_target": "сказало", "form_transliteration": "skazalo" },
+      { "verb_infinitive_target": "сказать", "tense_slug": "passe", "person_label": "pluriel", "form_target": "сказали", "form_transliteration": "skazali" },
+
+      { "verb_infinitive_target": "говорить", "tense_slug": "passe", "person_label": "masculin", "form_target": "говорил", "form_transliteration": "govoril" },
+      { "verb_infinitive_target": "говорить", "tense_slug": "passe", "person_label": "féminin", "form_target": "говорила", "form_transliteration": "govorila" },
+      { "verb_infinitive_target": "говорить", "tense_slug": "passe", "person_label": "neutre", "form_target": "говорило", "form_transliteration": "govorilo" },
+      { "verb_infinitive_target": "говорить", "tense_slug": "passe", "person_label": "pluriel", "form_target": "говорили", "form_transliteration": "govorili" },
+
+      { "verb_infinitive_target": "понимать", "tense_slug": "passe", "person_label": "masculin", "form_target": "понимал", "form_transliteration": "ponimal" },
+      { "verb_infinitive_target": "понимать", "tense_slug": "passe", "person_label": "féminin", "form_target": "понимала", "form_transliteration": "ponimala" },
+      { "verb_infinitive_target": "понимать", "tense_slug": "passe", "person_label": "neutre", "form_target": "понимало", "form_transliteration": "ponimalo" },
+      { "verb_infinitive_target": "понимать", "tense_slug": "passe", "person_label": "pluriel", "form_target": "понимали", "form_transliteration": "ponimali" },
+
+      { "verb_infinitive_target": "есть", "tense_slug": "passe", "person_label": "masculin", "form_target": "ел", "form_transliteration": "yel" },
+      { "verb_infinitive_target": "есть", "tense_slug": "passe", "person_label": "féminin", "form_target": "ела", "form_transliteration": "yela" },
+      { "verb_infinitive_target": "есть", "tense_slug": "passe", "person_label": "neutre", "form_target": "ело", "form_transliteration": "yelo" },
+      { "verb_infinitive_target": "есть", "tense_slug": "passe", "person_label": "pluriel", "form_target": "ели", "form_transliteration": "yeli" },
+
+      { "verb_infinitive_target": "пить", "tense_slug": "passe", "person_label": "masculin", "form_target": "пил", "form_transliteration": "pil" },
+      { "verb_infinitive_target": "пить", "tense_slug": "passe", "person_label": "féminin", "form_target": "пила", "form_transliteration": "pila" },
+      { "verb_infinitive_target": "пить", "tense_slug": "passe", "person_label": "neutre", "form_target": "пило", "form_transliteration": "pilo" },
+      { "verb_infinitive_target": "пить", "tense_slug": "passe", "person_label": "pluriel", "form_target": "пили", "form_transliteration": "pili" },
+
+      { "verb_infinitive_target": "любить", "tense_slug": "passe", "person_label": "masculin", "form_target": "любил", "form_transliteration": "lyubil" },
+      { "verb_infinitive_target": "любить", "tense_slug": "passe", "person_label": "féminin", "form_target": "любила", "form_transliteration": "lyubila" },
+      { "verb_infinitive_target": "любить", "tense_slug": "passe", "person_label": "neutre", "form_target": "любило", "form_transliteration": "lyubilo" },
+      { "verb_infinitive_target": "любить", "tense_slug": "passe", "person_label": "pluriel", "form_target": "любили", "form_transliteration": "lyubili" },
+
+      { "verb_infinitive_target": "брать", "tense_slug": "passe", "person_label": "masculin", "form_target": "брал", "form_transliteration": "bral" },
+      { "verb_infinitive_target": "брать", "tense_slug": "passe", "person_label": "féminin", "form_target": "брала", "form_transliteration": "brala" },
+      { "verb_infinitive_target": "брать", "tense_slug": "passe", "person_label": "neutre", "form_target": "брало", "form_transliteration": "bralo" },
+      { "verb_infinitive_target": "брать", "tense_slug": "passe", "person_label": "pluriel", "form_target": "брали", "form_transliteration": "brali" },
+
+      { "verb_infinitive_target": "быть", "tense_slug": "futur", "person_label": "я", "form_target": "буду", "form_transliteration": "budu" },
+      { "verb_infinitive_target": "быть", "tense_slug": "futur", "person_label": "ты", "form_target": "будешь", "form_transliteration": "budesh'" },
+      { "verb_infinitive_target": "быть", "tense_slug": "futur", "person_label": "он/она/оно", "form_target": "будет", "form_transliteration": "budet" },
+      { "verb_infinitive_target": "быть", "tense_slug": "futur", "person_label": "мы", "form_target": "будем", "form_transliteration": "budem" },
+      { "verb_infinitive_target": "быть", "tense_slug": "futur", "person_label": "вы", "form_target": "будете", "form_transliteration": "budete" },
+      { "verb_infinitive_target": "быть", "tense_slug": "futur", "person_label": "они", "form_target": "будут", "form_transliteration": "budut" },
+
+      { "verb_infinitive_target": "идти", "tense_slug": "futur", "person_label": "я", "form_target": "буду идти", "form_transliteration": "budu idti" },
+      { "verb_infinitive_target": "идти", "tense_slug": "futur", "person_label": "ты", "form_target": "будешь идти", "form_transliteration": "budesh' idti" },
+      { "verb_infinitive_target": "идти", "tense_slug": "futur", "person_label": "он/она/оно", "form_target": "будет идти", "form_transliteration": "budet idti" },
+      { "verb_infinitive_target": "идти", "tense_slug": "futur", "person_label": "мы", "form_target": "будем идти", "form_transliteration": "budem idti" },
+      { "verb_infinitive_target": "идти", "tense_slug": "futur", "person_label": "вы", "form_target": "будете идти", "form_transliteration": "budete idti" },
+      { "verb_infinitive_target": "идти", "tense_slug": "futur", "person_label": "они", "form_target": "будут идти", "form_transliteration": "budut idti" },
+
+      { "verb_infinitive_target": "делать", "tense_slug": "futur", "person_label": "я", "form_target": "буду делать", "form_transliteration": "budu delat'" },
+      { "verb_infinitive_target": "делать", "tense_slug": "futur", "person_label": "ты", "form_target": "будешь делать", "form_transliteration": "budesh' delat'" },
+      { "verb_infinitive_target": "делать", "tense_slug": "futur", "person_label": "он/она/оно", "form_target": "будет делать", "form_transliteration": "budet delat'" },
+      { "verb_infinitive_target": "делать", "tense_slug": "futur", "person_label": "мы", "form_target": "будем делать", "form_transliteration": "budem delat'" },
+      { "verb_infinitive_target": "делать", "tense_slug": "futur", "person_label": "вы", "form_target": "будете делать", "form_transliteration": "budete delat'" },
+      { "verb_infinitive_target": "делать", "tense_slug": "futur", "person_label": "они", "form_target": "будут делать", "form_transliteration": "budut delat'" },
+
+      { "verb_infinitive_target": "мочь", "tense_slug": "futur", "person_label": "я", "form_target": "буду мочь", "form_transliteration": "budu moch'" },
+      { "verb_infinitive_target": "мочь", "tense_slug": "futur", "person_label": "ты", "form_target": "будешь мочь", "form_transliteration": "budesh' moch'" },
+      { "verb_infinitive_target": "мочь", "tense_slug": "futur", "person_label": "он/она/оно", "form_target": "будет мочь", "form_transliteration": "budet moch'" },
+      { "verb_infinitive_target": "мочь", "tense_slug": "futur", "person_label": "мы", "form_target": "будем мочь", "form_transliteration": "budem moch'" },
+      { "verb_infinitive_target": "мочь", "tense_slug": "futur", "person_label": "вы", "form_target": "будете мочь", "form_transliteration": "budete moch'" },
+      { "verb_infinitive_target": "мочь", "tense_slug": "futur", "person_label": "они", "form_target": "будут мочь", "form_transliteration": "budut moch'" },
+
+      { "verb_infinitive_target": "говорить", "tense_slug": "futur", "person_label": "я", "form_target": "буду говорить", "form_transliteration": "budu govorit'" },
+      { "verb_infinitive_target": "говорить", "tense_slug": "futur", "person_label": "ты", "form_target": "будешь говорить", "form_transliteration": "budesh' govorit'" },
+      { "verb_infinitive_target": "говорить", "tense_slug": "futur", "person_label": "он/она/оно", "form_target": "будет говорить", "form_transliteration": "budet govorit'" },
+      { "verb_infinitive_target": "говорить", "tense_slug": "futur", "person_label": "мы", "form_target": "будем говорить", "form_transliteration": "budem govorit'" },
+      { "verb_infinitive_target": "говорить", "tense_slug": "futur", "person_label": "вы", "form_target": "будете говорить", "form_transliteration": "budete govorit'" },
+      { "verb_infinitive_target": "говорить", "tense_slug": "futur", "person_label": "они", "form_target": "будут говорить", "form_transliteration": "budut govorit'" },
+
+      { "verb_infinitive_target": "понимать", "tense_slug": "futur", "person_label": "я", "form_target": "буду понимать", "form_transliteration": "budu ponimat'" },
+      { "verb_infinitive_target": "понимать", "tense_slug": "futur", "person_label": "ты", "form_target": "будешь понимать", "form_transliteration": "budesh' ponimat'" },
+      { "verb_infinitive_target": "понимать", "tense_slug": "futur", "person_label": "он/она/оно", "form_target": "будет понимать", "form_transliteration": "budet ponimat'" },
+      { "verb_infinitive_target": "понимать", "tense_slug": "futur", "person_label": "мы", "form_target": "будем понимать", "form_transliteration": "budem ponimat'" },
+      { "verb_infinitive_target": "понимать", "tense_slug": "futur", "person_label": "вы", "form_target": "будете понимать", "form_transliteration": "budete ponimat'" },
+      { "verb_infinitive_target": "понимать", "tense_slug": "futur", "person_label": "они", "form_target": "будут понимать", "form_transliteration": "budut ponimat'" },
+
+      { "verb_infinitive_target": "сказать", "tense_slug": "futur", "person_label": "я", "form_target": "скажу", "form_transliteration": "skazhu" },
+      { "verb_infinitive_target": "сказать", "tense_slug": "futur", "person_label": "ты", "form_target": "скажешь", "form_transliteration": "skazhesh'" },
+      { "verb_infinitive_target": "сказать", "tense_slug": "futur", "person_label": "он/она/оно", "form_target": "скажет", "form_transliteration": "skazhet" },
+      { "verb_infinitive_target": "сказать", "tense_slug": "futur", "person_label": "мы", "form_target": "скажем", "form_transliteration": "skazhem" },
+      { "verb_infinitive_target": "сказать", "tense_slug": "futur", "person_label": "вы", "form_target": "скажете", "form_transliteration": "skazhete" },
+      { "verb_infinitive_target": "сказать", "tense_slug": "futur", "person_label": "они", "form_target": "скажут", "form_transliteration": "skazhut" },
+
+      { "verb_infinitive_target": "быть", "tense_slug": "imperatif", "person_label": "ты", "form_target": "будь", "form_transliteration": "bud'" },
+      { "verb_infinitive_target": "быть", "tense_slug": "imperatif", "person_label": "вы", "form_target": "будьте", "form_transliteration": "bud'te" },
+
+      { "verb_infinitive_target": "идти", "tense_slug": "imperatif", "person_label": "ты", "form_target": "иди", "form_transliteration": "idi" },
+      { "verb_infinitive_target": "идти", "tense_slug": "imperatif", "person_label": "вы", "form_target": "идите", "form_transliteration": "idite" },
+
+      { "verb_infinitive_target": "делать", "tense_slug": "imperatif", "person_label": "ты", "form_target": "делай", "form_transliteration": "delay" },
+      { "verb_infinitive_target": "делать", "tense_slug": "imperatif", "person_label": "вы", "form_target": "делайте", "form_transliteration": "delayte" },
+
+      { "verb_infinitive_target": "говорить", "tense_slug": "imperatif", "person_label": "ты", "form_target": "говори", "form_transliteration": "govori" },
+      { "verb_infinitive_target": "говорить", "tense_slug": "imperatif", "person_label": "вы", "form_target": "говорите", "form_transliteration": "govorite" },
+
+      { "verb_infinitive_target": "сказать", "tense_slug": "imperatif", "person_label": "ты", "form_target": "скажи", "form_transliteration": "skazhi" },
+      { "verb_infinitive_target": "сказать", "tense_slug": "imperatif", "person_label": "вы", "form_target": "скажите", "form_transliteration": "skazhite" },
+
+      { "verb_infinitive_target": "есть", "tense_slug": "imperatif", "person_label": "ты", "form_target": "ешь", "form_transliteration": "yesh'" },
+      { "verb_infinitive_target": "есть", "tense_slug": "imperatif", "person_label": "вы", "form_target": "ешьте", "form_transliteration": "yesh'te" },
+
+      { "verb_infinitive_target": "пить", "tense_slug": "imperatif", "person_label": "ты", "form_target": "пей", "form_transliteration": "pey" },
+      { "verb_infinitive_target": "пить", "tense_slug": "imperatif", "person_label": "вы", "form_target": "пейте", "form_transliteration": "peyte" },
+
+      { "verb_infinitive_target": "брать", "tense_slug": "imperatif", "person_label": "ты", "form_target": "бери", "form_transliteration": "beri" },
+      { "verb_infinitive_target": "брать", "tense_slug": "imperatif", "person_label": "вы", "form_target": "берите", "form_transliteration": "berite" }
+    ]
+  },
+  "grammar": [
+    {
+      "category_slug": "ordre_des_mots",
+      "category_name_fr": "Ordre des mots",
+      "rules": [
+        {
+          "explanation_fr": "L'ordre des mots est assez libre car les cas indiquent la fonction grammaticale, mais l'ordre neutre par défaut reste Sujet-Verbe-Complément (SVO), comme en français.",
+          "examples": [
+            { "target": "Я читаю книгу", "transliteration": "Ya chitayu knigu", "fr": "Je lis un livre" }
+          ]
+        },
+        {
+          "explanation_fr": "Changer l'ordre des mots sert surtout à insister sur un élément (mise en relief), pas à changer le sens grammatical de base.",
+          "examples": [
+            { "target": "Вчера я был дома", "transliteration": "Vchera ya byl doma", "fr": "Hier j'étais à la maison (neutre)" },
+            { "target": "Дома я был вчера", "transliteration": "Doma ya byl vchera", "fr": "C'est à la maison que j'étais hier (insistance)" }
+          ]
+        }
+      ]
+    },
+    {
+      "category_slug": "negation",
+      "category_name_fr": "Négation",
+      "rules": [
+        {
+          "explanation_fr": "On nie une phrase en plaçant не directement devant le verbe ou l'élément qu'on veut nier.",
+          "examples": [
+            { "target": "Я не понимаю", "transliteration": "Ya ne ponimayu", "fr": "Je ne comprends pas" },
+            { "target": "Это не дорого", "transliteration": "Eto ne dorogo", "fr": "Ce n'est pas cher" }
+          ]
+        },
+        {
+          "explanation_fr": "Contrairement au français, le russe utilise la double négation : ничего не, никогда не, никто не — le не devant le verbe reste obligatoire même avec un autre mot négatif.",
+          "examples": [
+            { "target": "Я ничего не понимаю", "transliteration": "Ya nichego ne ponimayu", "fr": "Je ne comprends rien" },
+            { "target": "Я никогда не был в России", "transliteration": "Ya nikogda ne byl v Rossii", "fr": "Je ne suis jamais allé en Russie" }
+          ]
+        }
+      ]
+    },
+    {
+      "category_slug": "question",
+      "category_name_fr": "Question",
+      "rules": [
+        {
+          "explanation_fr": "Une question fermée (oui/non) se forme souvent juste par l'intonation, sans changer l'ordre des mots ni ajouter de mot.",
+          "examples": [
+            { "target": "Ты говоришь по-русски?", "transliteration": "Ty govorish' po-russki?", "fr": "Tu parles russe ?" }
+          ]
+        },
+        {
+          "explanation_fr": "Les questions ouvertes utilisent un mot interrogatif en début de phrase : что (quoi), кто (qui), где (où), когда (quand), почему (pourquoi), как (comment), сколько (combien).",
+          "examples": [
+            { "target": "Где ты живёшь?", "transliteration": "Gde ty zhivyosh'?", "fr": "Où habites-tu ?" },
+            { "target": "Почему ты грустишь?", "transliteration": "Pochemu ty grustish'?", "fr": "Pourquoi es-tu triste ?" }
+          ]
+        }
+      ]
+    },
+    {
+      "category_slug": "genre_accord",
+      "category_name_fr": "Genre et accord",
+      "rules": [
+        {
+          "explanation_fr": "Chaque nom a un genre (masculin, féminin, neutre), généralement reconnaissable à sa terminaison : consonne = masculin, -а/-я = féminin, -о/-е = neutre.",
+          "examples": [
+            { "target": "дом", "transliteration": "dom", "fr": "maison (masculin)" },
+            { "target": "вода", "transliteration": "voda", "fr": "eau (féminin)" },
+            { "target": "окно", "transliteration": "okno", "fr": "fenêtre (neutre)" }
+          ]
+        },
+        {
+          "explanation_fr": "L'adjectif s'accorde en genre, nombre et cas avec le nom qu'il qualifie.",
+          "examples": [
+            { "target": "большой дом", "transliteration": "bol'shoy dom", "fr": "une grande maison (masc.)" },
+            { "target": "большая комната", "transliteration": "bol'shaya komnata", "fr": "une grande pièce (fém.)" }
+          ]
+        }
+      ]
+    },
+    {
+      "category_slug": "cas",
+      "category_name_fr": "Cas grammaticaux (déclinaisons)",
+      "rules": [
+        {
+          "explanation_fr": "Le russe a 6 cas qui indiquent la fonction du nom dans la phrase, à la place des prépositions seules du français : nominatif (sujet), accusatif (complément d'objet direct), génitif (possession, négation, quantité), datif (destinataire), instrumental (moyen, accompagnement), prépositionnel (lieu, après certaines prépositions).",
+          "examples": [
+            { "target": "Это книга", "transliteration": "Eto kniga", "fr": "C'est un livre (nominatif)" },
+            { "target": "Я читаю книгу", "transliteration": "Ya chitayu knigu", "fr": "Je lis un livre (accusatif)" },
+            { "target": "У меня нет книги", "transliteration": "U menya net knigi", "fr": "Je n'ai pas de livre (génitif)" }
+          ]
+        },
+        {
+          "explanation_fr": "Priorité pratique : l'accusatif (pour dire ce qu'on fait ou ce qu'on veut) et le génitif (pour la possession et la négation) sont les deux cas les plus rentables à maîtriser en premier.",
+          "examples": [
+            { "target": "Я хочу кофе", "transliteration": "Ya khochu kofe", "fr": "Je veux un café" },
+            { "target": "Это дом моего друга", "transliteration": "Eto dom moyego druga", "fr": "C'est la maison de mon ami" }
+          ]
+        }
+      ]
+    },
+    {
+      "category_slug": "pronoms",
+      "category_name_fr": "Pronoms",
+      "rules": [
+        {
+          "explanation_fr": "Pronoms personnels sujets : я (je), ты (tu), он/она/оно (il/elle/il-neutre), мы (nous), вы (vous), они (ils/elles).",
+          "examples": [
+            { "target": "Я студент", "transliteration": "Ya student", "fr": "Je suis étudiant" },
+            { "target": "Она врач", "transliteration": "Ona vrach", "fr": "Elle est médecin" }
+          ]
+        },
+        {
+          "explanation_fr": "Les pronoms changent de forme selon le cas, comme les noms (ex: меня = moi/me à l'accusatif/génitif, мне = à moi au datif).",
+          "examples": [
+            { "target": "Дай мне это", "transliteration": "Day mne eto", "fr": "Donne-moi ça" },
+            { "target": "Это для меня", "transliteration": "Eto dlya menya", "fr": "C'est pour moi" }
+          ]
+        }
+      ]
+    },
+    {
+      "category_slug": "possession",
+      "category_name_fr": "Possession",
+      "rules": [
+        {
+          "explanation_fr": "Les possessifs (мой/твой/его/её/наш/ваш/их) s'accordent en genre et en nombre avec l'objet possédé, pas avec le possesseur.",
+          "examples": [
+            { "target": "мой телефон", "transliteration": "moy telefon", "fr": "mon téléphone (masc.)" },
+            { "target": "моя семья", "transliteration": "moya sem'ya", "fr": "ma famille (fém.)" }
+          ]
+        },
+        {
+          "explanation_fr": "Pour dire qu'on possède quelque chose, on utilise la construction у + génitif + есть, littéralement « chez moi il y a ».",
+          "examples": [
+            { "target": "У меня есть время", "transliteration": "U menya yest' vremya", "fr": "J'ai du temps" },
+            { "target": "У тебя есть телефон?", "transliteration": "U tebya yest' telefon?", "fr": "Tu as un téléphone ?" }
+          ]
+        }
+      ]
+    },
+    {
+      "category_slug": "comparaison",
+      "category_name_fr": "Comparaison",
+      "rules": [
+        {
+          "explanation_fr": "Le comparatif simple se forme souvent en ajoutant -ее à l'adjectif, ou en utilisant более (plus) devant les adjectifs longs.",
+          "examples": [
+            { "target": "быстрее", "transliteration": "bystreye", "fr": "plus rapide" },
+            { "target": "более важный", "transliteration": "boleye vazhnyy", "fr": "plus important" }
+          ]
+        },
+        {
+          "explanation_fr": "Pour comparer deux éléments, on utilise чем (que) après le comparatif.",
+          "examples": [
+            { "target": "Это дешевле, чем то", "transliteration": "Eto deshevle, chem to", "fr": "C'est moins cher que ça" }
+          ]
+        }
+      ]
+    },
+    {
+      "category_slug": "connecteurs_logiques",
+      "category_name_fr": "Connecteurs logiques",
+      "rules": [
+        {
+          "explanation_fr": "и (et), а (mais / alors que, contraste léger), но (mais, opposition franche) sont les trois connecteurs de coordination les plus utiles.",
+          "examples": [
+            { "target": "Я и ты", "transliteration": "Ya i ty", "fr": "Moi et toi" },
+            { "target": "Я устал, но счастлив", "transliteration": "Ya ustal, no schastliv", "fr": "Je suis fatigué mais heureux" }
+          ]
+        },
+        {
+          "explanation_fr": "потому что (parce que) introduit une cause, поэтому (donc / c'est pourquoi) introduit une conséquence.",
+          "examples": [
+            { "target": "Я остался дома, потому что болен", "transliteration": "Ya ostalsya doma, potomu chto bolen", "fr": "Je suis resté à la maison parce que je suis malade" },
+            { "target": "Я устал, поэтому я иду спать", "transliteration": "Ya ustal, poetomu ya idu spat'", "fr": "Je suis fatigué, donc je vais dormir" }
+          ]
+        }
+      ]
+    },
+    {
+      "category_slug": "politesse_niveaux",
+      "category_name_fr": "Niveaux de politesse (ты / вы)",
+      "rules": [
+        {
+          "explanation_fr": "ты (tu) s'utilise avec la famille, les amis et les enfants ; вы (vous) s'utilise avec les inconnus, dans un cadre formel, ou au pluriel — la distinction est encore plus systématique qu'en français.",
+          "examples": [
+            { "target": "Как тебя зовут?", "transliteration": "Kak tebya zovut?", "fr": "Comment tu t'appelles ? (informel)" },
+            { "target": "Как вас зовут?", "transliteration": "Kak vas zovut?", "fr": "Comment vous appelez-vous ? (formel)" }
+          ]
+        },
+        {
+          "explanation_fr": "En cas de doute avec un adulte inconnu, utiliser вы est le choix le plus sûr — passer à ты se fait seulement si l'autre personne le propose.",
+          "examples": [
+            { "target": "Можно на ты?", "transliteration": "Mozhno na ty?", "fr": "On peut se tutoyer ?" }
+          ]
+        }
+      ]
+    }
+  ],
+  "syntax": [
+    {
+      "name_fr": "Phrase simple",
+      "explanation_fr": "Au présent, le verbe « être » est omis entre le sujet et l'attribut : « Je suis étudiant » se dit littéralement « Je étudiant ».",
+      "complexity_level": 1,
+      "examples": [
+        { "target": "Я студент", "transliteration": "Ya student", "fr": "Je suis étudiant" },
+        { "target": "Это интересно", "transliteration": "Eto interesno", "fr": "C'est intéressant" }
+      ]
+    },
+    {
+      "name_fr": "Coordination",
+      "explanation_fr": "On relie deux phrases simples avec и (et), а (alors que) ou но (mais).",
+      "complexity_level": 1,
+      "examples": [
+        { "target": "Я работаю, а он отдыхает", "transliteration": "Ya rabotayu, a on otdykhayet", "fr": "Je travaille, tandis que lui se repose" }
+      ]
+    },
+    {
+      "name_fr": "Subordination (parce que / que / quand / si)",
+      "explanation_fr": "потому что (parce que), что (que), когда (quand) et если (si) introduisent une proposition subordonnée, toujours précédée d'une virgule.",
+      "complexity_level": 2,
+      "examples": [
+        { "target": "Я думаю, что это хорошая идея", "transliteration": "Ya dumayu, chto eto khoroshaya ideya", "fr": "Je pense que c'est une bonne idée" },
+        { "target": "Позвони мне, когда придёшь", "transliteration": "Pozvoni mne, kogda pridyosh'", "fr": "Appelle-moi quand tu arrives" },
+        { "target": "Если у тебя есть время, приходи", "transliteration": "Yesli u tebya yest' vremya, prikhodi", "fr": "Si tu as le temps, viens" }
+      ]
+    },
+    {
+      "name_fr": "Relatives (который)",
+      "explanation_fr": "который (qui / que) introduit une proposition relative ; il s'accorde en genre et en nombre avec le nom qu'il remplace, et se décline selon sa fonction dans la relative.",
+      "complexity_level": 2,
+      "examples": [
+        { "target": "Человек, который живёт рядом", "transliteration": "Chelovek, kotoryy zhivyot ryadom", "fr": "La personne qui habite à côté" },
+        { "target": "Книга, которую я читаю", "transliteration": "Kniga, kotoruyu ya chitayu", "fr": "Le livre que je lis" }
+      ]
+    },
+    {
+      "name_fr": "Discours rapporté simple",
+      "explanation_fr": "Pour rapporter ce que quelqu'un a dit, on utilise simplement что (que) — contrairement au français, le russe ne change pas les temps verbaux (pas de concordance des temps stricte).",
+      "complexity_level": 3,
+      "examples": [
+        { "target": "Он сказал, что придёт", "transliteration": "On skazal, chto pridyot", "fr": "Il a dit qu'il viendrait" },
+        { "target": "Она спросила, где ты", "transliteration": "Ona sprosila, gde ty", "fr": "Elle a demandé où tu étais" }
+      ]
+    },
+    {
+      "name_fr": "Structure d'une petite argumentation",
+      "explanation_fr": "Pour structurer une opinion simple : по-моему / я думаю (à mon avis) pour introduire, потому что (parce que) pour justifier, но (mais) pour nuancer, поэтому (donc) pour conclure.",
+      "complexity_level": 3,
+      "examples": [
+        { "target": "По-моему, это хорошая идея, потому что это дёшево", "transliteration": "Po-moyemu, eto khoroshaya ideya, potomu chto eto dyoshevo", "fr": "À mon avis, c'est une bonne idée, parce que c'est pas cher" }
+      ]
+    },
+    {
+      "name_fr": "Expression du but",
+      "explanation_fr": "чтобы (pour que / afin de) introduit un but, suivi de l'infinitif si le sujet ne change pas.",
+      "complexity_level": 2,
+      "examples": [
+        { "target": "Я учу русский, чтобы путешествовать", "transliteration": "Ya uchu russkiy, chtoby puteshestvovat'", "fr": "J'apprends le russe pour voyager" }
+      ]
+    },
+    {
+      "name_fr": "Phrase impersonnelle",
+      "explanation_fr": "Beaucoup de phrases utiles sont impersonnelles : pas de sujet grammatical, juste un adverbe suivi de la personne concernée au datif.",
+      "complexity_level": 2,
+      "examples": [
+        { "target": "Мне холодно", "transliteration": "Mne kholodno", "fr": "J'ai froid (littéralement : à moi froid)" },
+        { "target": "Ему нужно идти", "transliteration": "Yemu nuzhno idti", "fr": "Il doit y aller" }
+      ]
+    }
+  ],
+  "expressions": [
+    {
+      "context_slug": "politesse",
+      "context_name_fr": "Politesse et salutations",
+      "items": [
+        { "target_text": "Здравствуйте", "transliteration": "Zdravstvuyte", "translation_fr": "Bonjour", "usage_note": "formule standard, formelle, pour saluer quelqu'un qu'on ne tutoie pas" },
+        { "target_text": "Привет", "transliteration": "Privet", "translation_fr": "Salut", "usage_note": "informel, entre amis" },
+        { "target_text": "Доброе утро", "transliteration": "Dobroye utro", "translation_fr": "Bonjour (le matin)" },
+        { "target_text": "Добрый день", "transliteration": "Dobryy den'", "translation_fr": "Bonjour (l'après-midi)" },
+        { "target_text": "Добрый вечер", "transliteration": "Dobryy vecher", "translation_fr": "Bonsoir" },
+        { "target_text": "До свидания", "transliteration": "Do svidaniya", "translation_fr": "Au revoir", "usage_note": "formel" },
+        { "target_text": "Пока", "transliteration": "Poka", "translation_fr": "Salut, à plus", "usage_note": "informel" },
+        { "target_text": "Спасибо большое", "transliteration": "Spasibo bol'shoye", "translation_fr": "Merci beaucoup" },
+        { "target_text": "Пожалуйста", "transliteration": "Pozhaluysta", "translation_fr": "Je vous en prie / s'il vous plaît" },
+        { "target_text": "Как дела?", "transliteration": "Kak dela?", "translation_fr": "Comment ça va ?" },
+        { "target_text": "Всё хорошо, спасибо", "transliteration": "Vsyo khorosho, spasibo", "translation_fr": "Tout va bien, merci" },
+        { "target_text": "Будьте здоровы", "transliteration": "Bud'te zdorovy", "translation_fr": "À vos souhaits", "usage_note": "dit après un éternuement" },
+        { "target_text": "С днём рождения", "transliteration": "S dnyom rozhdeniya", "translation_fr": "Joyeux anniversaire" }
+      ]
+    },
+    {
+      "context_slug": "conversation",
+      "context_name_fr": "Réagir en conversation",
+      "items": [
+        { "target_text": "Правда?", "transliteration": "Pravda?", "translation_fr": "Vraiment ?" },
+        { "target_text": "Не может быть!", "transliteration": "Ne mozhet byt'!", "translation_fr": "Pas possible !" },
+        { "target_text": "Понятно", "transliteration": "Ponyatno", "translation_fr": "Je vois / compris" },
+        { "target_text": "Конечно", "transliteration": "Konechno", "translation_fr": "Bien sûr" },
+        { "target_text": "Может быть", "transliteration": "Mozhet byt'", "translation_fr": "Peut-être" },
+        { "target_text": "Я не понимаю", "transliteration": "Ya ne ponimayu", "translation_fr": "Je ne comprends pas" },
+        { "target_text": "Повторите, пожалуйста", "transliteration": "Povtorite, pozhaluysta", "translation_fr": "Répétez, s'il vous plaît" },
+        { "target_text": "Говорите медленнее, пожалуйста", "transliteration": "Govorite medlenneye, pozhaluysta", "translation_fr": "Parlez plus lentement, s'il vous plaît" },
+        { "target_text": "Как это сказать по-русски?", "transliteration": "Kak eto skazat' po-russki?", "translation_fr": "Comment dit-on ça en russe ?" },
+        { "target_text": "Что это значит?", "transliteration": "Chto eto znachit?", "translation_fr": "Qu'est-ce que ça veut dire ?" },
+        { "target_text": "Вы говорите по-английски?", "transliteration": "Vy govorite po-angliyski?", "translation_fr": "Vous parlez anglais ?" },
+        { "target_text": "Без проблем", "transliteration": "Bez problem", "translation_fr": "Pas de problème" }
+      ]
+    },
+    {
+      "context_slug": "urgences_expr",
+      "context_name_fr": "Urgences",
+      "items": [
+        { "target_text": "Помогите, пожалуйста!", "transliteration": "Pomogite, pozhaluysta!", "translation_fr": "Aidez-moi, s'il vous plaît !" },
+        { "target_text": "Это срочно", "transliteration": "Eto srochno", "translation_fr": "C'est urgent" },
+        { "target_text": "Мне нужна помощь прямо сейчас", "transliteration": "Mne nuzhna pomoshch' pryamo seychas", "translation_fr": "J'ai besoin d'aide tout de suite" },
+        { "target_text": "Где ближайшая больница?", "transliteration": "Gde blizhayshaya bol'nitsa?", "translation_fr": "Où est l'hôpital le plus proche ?" },
+        { "target_text": "Оставайтесь на месте", "transliteration": "Ostavaytes' na meste", "translation_fr": "Restez où vous êtes" }
+      ]
+    },
+    {
+      "context_slug": "restaurant_expr",
+      "context_name_fr": "Restaurant",
+      "items": [
+        { "target_text": "Можно меню, пожалуйста?", "transliteration": "Mozhno menyu, pozhaluysta?", "translation_fr": "Je peux avoir le menu, s'il vous plaît ?" },
+        { "target_text": "Что вы посоветуете?", "transliteration": "Chto vy posovetuyete?", "translation_fr": "Que me conseillez-vous ?" },
+        { "target_text": "Всё было очень вкусно", "transliteration": "Vsyo bylo ochen' vkusno", "translation_fr": "Tout était très bon" },
+        { "target_text": "Можно счёт?", "transliteration": "Mozhno schyot?", "translation_fr": "On peut avoir l'addition ?" },
+        { "target_text": "Это входит в стоимость?", "transliteration": "Eto vkhodit v stoimost'?", "translation_fr": "C'est inclus dans le prix ?" },
+        { "target_text": "На здоровье", "transliteration": "Na zdorov'ye", "translation_fr": "De rien / à votre santé", "usage_note": "réponse courante à un remerciement pour un repas" }
+      ]
+    },
+    {
+      "context_slug": "voyage_expr",
+      "context_name_fr": "Voyage",
+      "items": [
+        { "target_text": "Сколько времени займёт дорога?", "transliteration": "Skol'ko vremeni zaymyot doroga?", "translation_fr": "Combien de temps prend le trajet ?" },
+        { "target_text": "Где я могу купить билет?", "transliteration": "Gde ya mogu kupit' bilet?", "translation_fr": "Où puis-je acheter un billet ?" },
+        { "target_text": "Это место свободно?", "transliteration": "Eto mesto svobodno?", "translation_fr": "Cette place est-elle libre ?" },
+        { "target_text": "Мне нужно такси в аэропорт", "transliteration": "Mne nuzhno taksi v aeroport", "translation_fr": "J'ai besoin d'un taxi pour l'aéroport" },
+        { "target_text": "Счастливого пути!", "transliteration": "Schastlivogo puti!", "translation_fr": "Bon voyage !" }
+      ]
+    },
+    {
+      "context_slug": "accord_desaccord",
+      "context_name_fr": "Accord et désaccord",
+      "items": [
+        { "target_text": "Я согласен", "transliteration": "Ya soglasen", "translation_fr": "Je suis d'accord (homme)" },
+        { "target_text": "Я согласна", "transliteration": "Ya soglasna", "translation_fr": "Je suis d'accord (femme)" },
+        { "target_text": "Я не согласен", "transliteration": "Ya ne soglasen", "translation_fr": "Je ne suis pas d'accord (homme)" },
+        { "target_text": "Точно", "transliteration": "Tochno", "translation_fr": "Exactement / tout à fait" },
+        { "target_text": "Совсем нет", "transliteration": "Sovsem net", "translation_fr": "Pas du tout" },
+        { "target_text": "Ты прав", "transliteration": "Ty prav", "translation_fr": "Tu as raison (à un homme)" },
+        { "target_text": "Ты права", "transliteration": "Ty prava", "translation_fr": "Tu as raison (à une femme)" }
+      ]
+    },
+    {
+      "context_slug": "avis",
+      "context_name_fr": "Donner un avis simplement",
+      "items": [
+        { "target_text": "По-моему...", "transliteration": "Po-moyemu...", "translation_fr": "À mon avis..." },
+        { "target_text": "Я думаю, что...", "transliteration": "Ya dumayu, chto...", "translation_fr": "Je pense que..." },
+        { "target_text": "Мне кажется, что...", "transliteration": "Mne kazhetsya, chto...", "translation_fr": "Il me semble que..." },
+        { "target_text": "Мне нравится", "transliteration": "Mne nravitsya", "translation_fr": "J'aime bien" },
+        { "target_text": "Мне не нравится", "transliteration": "Mne ne nravitsya", "translation_fr": "Je n'aime pas" },
+        { "target_text": "Это хорошая идея", "transliteration": "Eto khoroshaya ideya", "translation_fr": "C'est une bonne idée" }
+      ]
+    },
+    {
+      "context_slug": "connecteurs",
+      "context_name_fr": "Connecteurs de discours",
+      "items": [
+        { "target_text": "кстати", "transliteration": "kstati", "translation_fr": "au fait / d'ailleurs" },
+        { "target_text": "вообще", "transliteration": "voobshche", "translation_fr": "en général / franchement" },
+        { "target_text": "короче", "transliteration": "koroche", "translation_fr": "bref", "usage_note": "très familier" },
+        { "target_text": "в общем", "transliteration": "v obshchem", "translation_fr": "en gros / dans l'ensemble" },
+        { "target_text": "на самом деле", "transliteration": "na samom dele", "translation_fr": "en fait / en réalité" },
+        { "target_text": "то есть", "transliteration": "to yest'", "translation_fr": "c'est-à-dire" },
+        { "target_text": "всё-таки", "transliteration": "vsyo-taki", "translation_fr": "quand même / malgré tout" }
+      ]
+    }
+  ]
+}
