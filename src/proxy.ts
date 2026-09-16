@@ -1,12 +1,8 @@
-import { clerkMiddleware, createRouteMatcher } from "@clerk/nextjs/server";
+import { clerkMiddleware } from "@clerk/nextjs/server";
 
-const isProtectedRoute = createRouteMatcher(["/dashboard(.*)"]);
-
-export default clerkMiddleware(async (auth, req) => {
-  if (isProtectedRoute(req)) {
-    await auth.protect();
-  }
-});
+// Le contrôle d'accès se fait au niveau de chaque route protégée (ex: auth.protect()
+// dans src/app/dashboard/page.tsx), pas ici — voir la dépréciation de createRouteMatcher.
+export default clerkMiddleware();
 
 export const config = {
   matcher: [
