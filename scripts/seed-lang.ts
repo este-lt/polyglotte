@@ -232,6 +232,7 @@ async function seed(content: ContentFile) {
   }
 
   const formRows = content.conjugation.forms.map((f, i) => ({
+    language_id: languageId,
     verb_id: verbIdByInfinitive.get(f.verb_infinitive_target),
     tense_id: tenseIdBySlug.get(f.tense_slug),
     person_label: f.person_label,
@@ -264,6 +265,7 @@ async function seed(content: ContentFile) {
       .single();
     if (error) throw error;
     const ruleRows = cat.rules.map((r, ri) => ({
+      language_id: languageId,
       category_id: category.id,
       explanation_fr: r.explanation_fr,
       examples: r.examples,
